@@ -14,13 +14,15 @@
 		64E93AC01908D3E100852ECF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E93ABF1908D3E100852ECF /* main.m */; };
 		64E93AC41908D3E100852ECF /* OGEAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E93AC31908D3E100852ECF /* OGEAppDelegate.m */; };
 		64E93AC71908D3E100852ECF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64E93AC51908D3E100852ECF /* Main.storyboard */; };
-		64E93ACA1908D3E100852ECF /* OGEViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E93AC91908D3E100852ECF /* OGEViewController.m */; };
+		64E93ACA1908D3E100852ECF /* OGETriangleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E93AC91908D3E100852ECF /* OGETriangleViewController.m */; };
 		64E93ACC1908D3E100852ECF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64E93ACB1908D3E100852ECF /* Images.xcassets */; };
 		64E93AD31908D3E100852ECF /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64E93AD21908D3E100852ECF /* XCTest.framework */; };
 		64E93AD41908D3E100852ECF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64E93AB31908D3E100852ECF /* Foundation.framework */; };
 		64E93AD51908D3E100852ECF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64E93AB71908D3E100852ECF /* UIKit.framework */; };
 		64E93ADD1908D3E100852ECF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 64E93ADB1908D3E100852ECF /* InfoPlist.strings */; };
 		64E93ADF1908D3E100852ECF /* OpenGLESExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E93ADE1908D3E100852ECF /* OpenGLESExampleTests.m */; };
+		64E93AE91908D4C200852ECF /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64E93AE81908D4C200852ECF /* OpenGLES.framework */; };
+		64E93AEB1908D4C900852ECF /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64E93AEA1908D4C900852ECF /* GLKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +47,16 @@
 		64E93AC21908D3E100852ECF /* OGEAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OGEAppDelegate.h; sourceTree = "<group>"; };
 		64E93AC31908D3E100852ECF /* OGEAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OGEAppDelegate.m; sourceTree = "<group>"; };
 		64E93AC61908D3E100852ECF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		64E93AC81908D3E100852ECF /* OGEViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OGEViewController.h; sourceTree = "<group>"; };
-		64E93AC91908D3E100852ECF /* OGEViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OGEViewController.m; sourceTree = "<group>"; };
+		64E93AC81908D3E100852ECF /* OGETriangleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OGETriangleViewController.h; sourceTree = "<group>"; };
+		64E93AC91908D3E100852ECF /* OGETriangleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OGETriangleViewController.m; sourceTree = "<group>"; };
 		64E93ACB1908D3E100852ECF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		64E93AD11908D3E100852ECF /* OpenGLESExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenGLESExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		64E93AD21908D3E100852ECF /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		64E93ADA1908D3E100852ECF /* OpenGLESExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OpenGLESExampleTests-Info.plist"; sourceTree = "<group>"; };
 		64E93ADC1908D3E100852ECF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		64E93ADE1908D3E100852ECF /* OpenGLESExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenGLESExampleTests.m; sourceTree = "<group>"; };
+		64E93AE81908D4C200852ECF /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		64E93AEA1908D4C900852ECF /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64E93AEB1908D4C900852ECF /* GLKit.framework in Frameworks */,
+				64E93AE91908D4C200852ECF /* OpenGLES.framework in Frameworks */,
 				64E93AB61908D3E100852ECF /* CoreGraphics.framework in Frameworks */,
 				64E93AB81908D3E100852ECF /* UIKit.framework in Frameworks */,
 				64E93AB41908D3E100852ECF /* Foundation.framework in Frameworks */,
@@ -101,6 +107,8 @@
 		64E93AB21908D3E100852ECF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				64E93AEA1908D4C900852ECF /* GLKit.framework */,
+				64E93AE81908D4C200852ECF /* OpenGLES.framework */,
 				64E93AB31908D3E100852ECF /* Foundation.framework */,
 				64E93AB51908D3E100852ECF /* CoreGraphics.framework */,
 				64E93AB71908D3E100852ECF /* UIKit.framework */,
@@ -112,11 +120,10 @@
 		64E93AB91908D3E100852ECF /* OpenGLESExample */ = {
 			isa = PBXGroup;
 			children = (
+				64E93AEC1908D65500852ECF /* Triangle */,
 				64E93AC21908D3E100852ECF /* OGEAppDelegate.h */,
 				64E93AC31908D3E100852ECF /* OGEAppDelegate.m */,
 				64E93AC51908D3E100852ECF /* Main.storyboard */,
-				64E93AC81908D3E100852ECF /* OGEViewController.h */,
-				64E93AC91908D3E100852ECF /* OGEViewController.m */,
 				64E93ACB1908D3E100852ECF /* Images.xcassets */,
 				64E93ABA1908D3E100852ECF /* Supporting Files */,
 			);
@@ -150,6 +157,15 @@
 				64E93ADB1908D3E100852ECF /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		64E93AEC1908D65500852ECF /* Triangle */ = {
+			isa = PBXGroup;
+			children = (
+				64E93AC81908D3E100852ECF /* OGETriangleViewController.h */,
+				64E93AC91908D3E100852ECF /* OGETriangleViewController.m */,
+			);
+			name = Triangle;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,7 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				64E93ACA1908D3E100852ECF /* OGEViewController.m in Sources */,
+				64E93ACA1908D3E100852ECF /* OGETriangleViewController.m in Sources */,
 				64E93AC41908D3E100852ECF /* OGEAppDelegate.m in Sources */,
 				64E93AC01908D3E100852ECF /* main.m in Sources */,
 			);
